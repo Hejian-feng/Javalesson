@@ -1,0 +1,13 @@
+Java---控制语句
+    1）输入过程：java.util.Scanner s = new java.util.Scanner(System.in);String userInput = s.next();
+                 s.next()【接受字符串】s.nextInt()【接受整型】
+    2）switch语句中的case语句中如果没有break，则会直接执行后面的case语句中的Java代码，不会进判断【case穿透】
+    3）switch括号中可以写int/string，但是也可以写byte、short、char【会自动转换成int】
+    4）for循环中判断条件中设定的变量作用域只在for循环中【变量作用域】
+    5）含有变量的表达式，编译阶段不会判断真值
+    6）break语句用来中断循环的执行，默认情况下中断最近的循环语句【可以给循环取名再用break中断特定循环】
+
+Java---方法
+    1）
+    
+    

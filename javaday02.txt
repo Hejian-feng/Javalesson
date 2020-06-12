@@ -1,13 +1,21 @@
-Java---�������
-    1��������̣�java.util.Scanner s = new java.util.Scanner(System.in);String userInput = s.next();
-                 s.next()�������ַ�����s.nextInt()���������͡�
-    2��switch����е�case��������û��break�����ֱ��ִ�к����case����е�Java���룬������жϡ�case��͸��
-    3��switch�����п���дint/string������Ҳ����дbyte��short��char�����Զ�ת����int��
-    4��forѭ�����ж��������趨�ı���������ֻ��forѭ���С�����������
-    5�����б����ı���ʽ������׶β����ж���ֵ
-    6��break��������ж�ѭ����ִ�У�Ĭ��������ж������ѭ����䡾���Ը�ѭ��ȡ������break�ж��ض�ѭ����
+Java---控制语句
+    1）输入过程：java.util.Scanner s = new java.util.Scanner(System.in);String userInput = s.next();
+                 s.next()【接受字符串】s.nextInt()【接受整型】
+    2）switch语句中的case语句中如果没有break，则会直接执行后面的case语句中的Java代码，不会进判断【case穿透】
+    3）switch括号中可以写int/string，但是也可以写byte、short、char【会自动转换成int】
+    4）for循环中判断条件中设定的变量作用域只在for循环中【变量作用域】
+    5）含有变量的表达式，编译阶段不会判断真值
+    6）break语句用来中断循环的执行，默认情况下中断最近的循环语句【可以给循环取名再用break中断特定循环】
 
-Java---����
-    1��
+Java---方法
+    1）main函数外面定义方法【方法在类体中定义，不能在方法中再定义方法】，使用主类调用或者通过主类创建的对象调用方法。
+    2）方法定义语法：[修饰符列表] 返回值类型 方法名 (形式参数列表){
+                           方法体
+                     }
+	执行return语句时，return所在的方法结束。
+    3）形参是局部变量（同C/C++）
+    4）方法默认从当前类中寻找方法，调用其他类的方法：其它类名.方法名()
+    5）方法代码片段存在.class【字节码文件】文件中，方法被调用是会在栈内存中分内存空间，此时发生压栈动作，方法执行结束后会发生出栈动作。
+    6）JVM内存分布【方法区内存（存储字节码文件.class文件）、堆内存、栈内存（存放方法的内存空间）】
     
     

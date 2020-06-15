@@ -1,11 +1,14 @@
-Java---»ù´¡ÖªÊ¶£¨²¹³ä£©
-    1£©Ç¿ÖÆÀàÐÍ×ª»»¿ÉÒÔÊ¹ÓÃmath.round£¨£©·½·¨ÊµÏÖËÄÉáÎåÈë¡£
-    2£©=¡¢+=¡¢-=¡¢*=¡¢/=¡¢%=µÈÔËËã·ûµÄÔËËã·½ÏòÎª×ÔÓÒÏò×ó¡£
-    3£©java×Ö·û´®ÀàËÆÓÚchar*Ö¸Õë£¬²»ÔÊÐíÆäÖÐµÄµ¥¸ö×Ö½Ú¡£
-    4£©×Ö·û´®µÄ==ºÍequals£¨£©·½·¨£º==£º×Ö·û´®µÄµØÖ·ÊÇ·ñÏàµÈ£»equals£¨£©£º×Ö·û´®ÄÚÈÝÊÇ·ñÏàµÈ¡£
-    5£©ÎÄ¼þµÄÊäÈëÊä³öScanner´´½¨Ò»¸ö¶ÔÏóÓÃÀ´¶ÁÈ¡ÎÄ¼þÄÚÈÝ£ºScanner in = new Scanner£¨Path.of(Â·¾¶)£¬StandardCharsets.UTF-8£©£»
-       Ð´ÈëÎÄ¼þÓÃPrintWriter´´½¨Ò»¸ö¶ÔÏó£ºPrintWriter out = new PrintWeiter£¨"Â·¾¶"£¬StandardCharsets.UTF-8£©£»
-    6£©javaÖÐ¶Ô´óÊýµÄÔËËã²Ù×÷¶¼ÊÇÍ¨¹ýadd¡¢multiply¡¢divide¡¢modºÍsubtract·½·¨ÊµÏÖ¡£
-    7£©for eachÑ­»·£ºÓÃÀ´·ÃÎÊÊý×éÖÐµÄÃ¿Ò»¸öÔªËØ¡£
-    8£©Êý×éµÄ¿½±´£ºint[] Êý×éÃû1 = Êý×éÃû2 Á½¸öÊý×éÃûÖ¸ÏòÍ¬Ò»¿é´æ´¢¿Õ¼ä¡£
-    9£©¶þÎ¬Êý×éÏàµ±ÓÚÊý×éµÄÊý×é£¬Ã¿ÐÐ¶¼ÊÇÒ»¸öÒ»Î¬Êý×é¡£
+Java---åŸºç¡€çŸ¥è¯†ï¼ˆè¡¥å……ï¼‰
+    1ï¼‰å¼ºåˆ¶ç±»åž‹è½¬æ¢å¯ä»¥ä½¿ç”¨math.roundï¼ˆï¼‰æ–¹æ³•å®žçŽ°å››èˆäº”å…¥ã€‚
+    2ï¼‰=ã€+=ã€-=ã€*=ã€/=ã€%=ç­‰è¿ç®—ç¬¦çš„è¿ç®—æ–¹å‘ä¸ºè‡ªå³å‘å·¦ã€‚
+    3ï¼‰javaå­—ç¬¦ä¸²ç±»ä¼¼äºŽchar*æŒ‡é’ˆï¼Œä¸å…è®¸å…¶ä¸­çš„å•ä¸ªå­—èŠ‚ã€‚
+    4ï¼‰å­—ç¬¦ä¸²çš„==å’Œequalsï¼ˆï¼‰æ–¹æ³•ï¼š==ï¼šå­—ç¬¦ä¸²çš„åœ°å€æ˜¯å¦ç›¸ç­‰ï¼›equalsï¼ˆï¼‰ï¼šå­—ç¬¦ä¸²å†…å®¹æ˜¯å¦ç›¸ç­‰ã€‚
+    5ï¼‰æ–‡ä»¶çš„è¾“å…¥è¾“å‡ºScanneråˆ›å»ºä¸€ä¸ªå¯¹è±¡ç”¨æ¥è¯»å–æ–‡ä»¶å†…å®¹ï¼šScanner in = new Scannerï¼ˆPath.of(è·¯å¾„)ï¼ŒStandardCharsets.UTF-8ï¼‰ï¼›
+       å†™å…¥æ–‡ä»¶ç”¨PrintWriteråˆ›å»ºä¸€ä¸ªå¯¹è±¡ï¼šPrintWriter out = new PrintWeiterï¼ˆ"è·¯å¾„"ï¼ŒStandardCharsets.UTF-8ï¼‰ï¼›
+    6ï¼‰javaä¸­å¯¹å¤§æ•°çš„è¿ç®—æ“ä½œéƒ½æ˜¯é€šè¿‡addã€multiplyã€divideã€modå’Œsubtractæ–¹æ³•å®žçŽ°ã€‚
+    7ï¼‰for eachå¾ªçŽ¯ï¼šç”¨æ¥è®¿é—®æ•°ç»„ä¸­çš„æ¯ä¸€ä¸ªå…ƒç´ ã€‚
+       for(å…ƒç´ ç±»åž‹t å…ƒç´ å˜é‡x : éåŽ†å¯¹è±¡obj){
+            å¼•ç”¨äº†xçš„javaè¯­å¥;
+        }
+    8ï¼‰æ•°ç»„çš„æ‹·è´ï¼šint[] æ•°ç»„å1 = æ•°ç»„å2 ä¸¤ä¸ªæ•°ç»„åæŒ‡å‘åŒä¸€å—å­˜å‚¨ç©ºé—´ã€‚
+    9ï¼‰äºŒç»´æ•°ç»„ç›¸å½“äºŽæ•°ç»„çš„æ•°ç»„ï¼Œæ¯è¡Œéƒ½æ˜¯ä¸€ä¸ªä¸€ç»´æ•°ç»„ã€‚
